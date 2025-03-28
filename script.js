@@ -3,6 +3,6 @@
             let radius = prompt("Enter the radius of the circle:");
             // write you code here and display the result to the user
 	 
-           return (`The area of the circle with radius 4 is ${Math.round(radius)/100}`)
+           return (`The area of the circle with radius ${radius} is ${Math.round(radius)/100}`)
 }
 calculateArea();
